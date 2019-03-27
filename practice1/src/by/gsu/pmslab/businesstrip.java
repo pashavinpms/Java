@@ -1,11 +1,11 @@
 package by.gsu.pmslab;
 
-public class businesstrip {
+public class BusinessTrip {
     final int rate=25000;
     private String account;
     private int transport;
     private int days;
-    public businesstrip(String account,int transport,int days){
+    public BusinessTrip(String account,int transport,int days){
         this.account = account;
         this.transport = transport;
         this.days = days;
