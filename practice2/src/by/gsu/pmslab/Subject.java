@@ -1,6 +1,6 @@
 package by.gsu.pmslab;
 
-public class Subject {
+public enum Subject {
 private final static String name="wire";
 private Material material;
 private final static double volume=0.03;
