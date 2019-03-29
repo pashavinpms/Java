@@ -2,7 +2,7 @@ import by.gsu.pmslab.BusinessTrip;
 
 public class Runner {
 
-    public static void main(String[] args) {
+    public final static void main(String[] args) {
         BusinessTrip[] businesstrips = {
                 new BusinessTrip("Sam", 500, 31),
                 new BusinessTrip("Sanya",40,40),
