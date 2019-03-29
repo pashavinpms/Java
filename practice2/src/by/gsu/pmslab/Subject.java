@@ -1,30 +1,30 @@
 package by.gsu.pmslab;
 
 public enum Subject {
-private final static String name="wire";
+private final static String NAME="wire";
 private Material material;
-private final static double volume=0.03;
+private final static double VOLUME=0.03;
 
 public Subject(Material material) {
     this.material = material;
 
 }
-    public String getName() {
-        return name;
+    public String getNAME() {
+        return NAME;
     }
     public Material getMaterial() {
         return material;
     }
-    public double getVolume() {
-        return volume;
+    public double getVOLUME() {
+        return VOLUME;
     }
     public void setMaterial(Material material) {
         this.material = material;
     }
     public double getMass(){
-    return material.getDENSITY()*volume;
+    return material.getDENSITY()*VOLUME;
     }
     public String toString(){
-    return name + ";" + material + ";" + volume + ";" + getMass();
+    return NAME + ";" + material + ";" + VOLUNE + ";" + getMass();
     }
 }
