@@ -1,7 +1,7 @@
 package by.gsu.pmslab;
 
 public class BusinessTrip {
-    final int rate=25000;
+    final int RATE=25000;
     private String account;
     private int transport;
     private int days;
@@ -35,13 +35,13 @@ public class BusinessTrip {
         this.days = days;
     }
     public int getTotal(){
-        return transport + rate * days;
+        return transport + RATE * days;
     }
     public String toString(){
-        return rate+";"+account+";"+transport+";"+days+";";
+        return RATE+";"+account+";"+transport+";"+days+";";
     }
     public void show(){
-        System.out.println("rate = "+rate
+        System.out.println("rate = "+RATE
                 +"\naccount = "+account+"\ntransport = "+transport
                 +"\ndays ="+days+"\ntotal = "+getTotal());
     }
