@@ -1,0 +1,5 @@
+Vinogradov Pavel Denisovich 26.11.1998 Sovetskaya_97 7383861 PIT 3 MS-32
+Vlaznyuk Ivan Igorevich 11.03.1999 Mazurova_44 1234456 PIT 3 MS-32
+Pupkin Vasya Semenovich 10.02.1999 Kozhara_2 4433221 MAT 2 POIT-27
+Vysotskiy Vlad Nonameovich 23.08.1998 Sovetskaya_97 9922115 FL 4 AI-47
+Sokolov Sergey Petrovich 14.10.1995 pr.Kosmonavtov_23 9876342 PE 3 FA-31
